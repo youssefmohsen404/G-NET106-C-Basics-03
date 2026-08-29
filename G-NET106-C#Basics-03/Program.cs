@@ -43,9 +43,19 @@
             //use the ternary operator to store "Long Book" or "Short Book"
             //into a variable sizeLabel (same rule as question 6: long if pages > 300).
 
-         /*   int pages = 464;
-            string bookSize = pages > 300 ? "long book" : "short book";
-            Console.WriteLine(bookSize);*/
+            /*   int pages = 464;
+               string bookSize = pages > 300 ? "long book" : "short book";
+               Console.WriteLine(bookSize);*/
+            #endregion
+            #region Question4
+            //Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };,
+            //use a for loop to print each book with its position number, like 1. Clean Code.
+
+           /* string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for(int i = 0; i <= 2; i++)
+            {
+                Console.WriteLine(books[i]);
+            }*/
             #endregion
         }
     }
